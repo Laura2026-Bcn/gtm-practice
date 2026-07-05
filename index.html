@@ -2,58 +2,354 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    
+   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GTM Practice Website</title>
+    <title>Digital Growth Studio</title>
 
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id=GTM-MPCP556B';f.parentNode.insertBefore(j,f);
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-MPCP556B');</script>
     <!-- End Google Tag Manager -->
+
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* aquí continua la resta del teu CSS */
+
+    </style>
+    <style>
+        body 
+            <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPCP556B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #0f172a;
+            color: white;
+            padding: 20px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: white;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 28px;
+            margin: 10px;
+            border-radius: 6px;
+            text-decoration: none;
+            color: white;
+            background: #2563eb;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 60px 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+
+        button {
+            background: #2563eb;
+            color: white;
+            border: none;
+            padding: 14px 24px;
+            cursor: pointer;
+        }
+
+        footer {
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+    </style>
 
 </head>
 
 <body>
+    <body>
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPCP556B"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <h1>Welcome!</h1>
+    <!-- Aquí ja comença la teva web -->
 
-    <p>This website is for practicing Google Tag Manager.</p>
+    <header>
+        ...
+    </header>
 
-    <h2>Contact us</h2>
+<!-- ENGANXA AQUÍ EL TEU NOSCRIPT DE GTM -->
 
-<form id="contact-form">
-    <label for="name">Name</label><br>
-    <input type="text" id="name" name="name" required><br><br>
+<header>
 
-    <label for="email">Email</label><br>
-    <input type="email" id="email" name="email" required><br><br>
+    <h2>Digital Growth Studio</h2>
 
-    <label for="message">Message</label><br>
-    <textarea id="message" name="message" rows="5" required></textarea><br><br>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#resources">Resources</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-    <button type="submit">Send message</button>
-</form>
+</header>
 
-<p id="success-message" style="display:none;color:green;">
-    Thank you! Your message has been sent.
+<section class="hero">
+
+    <h1>Grow your business online</h1>
+
+    <p>
+        Helping companies generate more leads through
+        digital marketing, CRM and analytics.
+    </p>
+
+    <a class="btn"
+       id="book-demo-btn"
+       href="#">
+        Book a demo
+    </a>
+
+    <a class="btn"
+       id="quote-btn"
+       href="#">
+        Get a quote
+    </a>
+
+</section>
+
+<section id="services">
+
+    <h2>Our services</h2>
+
+    <div class="card">
+        <h3>Email Marketing</h3>
+        <p>Create high-converting email campaigns.</p>
+    </div>
+
+    <div class="card">
+        <h3>Marketing Automation</h3>
+        <p>Automate your customer journey.</p>
+    </div>
+
+    <div class="card">
+        <h3>Analytics</h3>
+        <p>Measure every conversion.</p>
+    </div>
+
+</section>
+
+<section id="resources">
+
+    <h2>Resources</h2>
+
+    <p>
+        Download our brochure.
+    </p>
+
+    <a
+        id="download-pdf-btn"
+        href="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+        target="_blank"
+        class="btn">
+
+        Download PDF
+
+    </a>
+
+</section>
+
+<section>
+
+    <h2>Watch our introduction</h2>
+
+    <iframe
+        id="intro-video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+        title="YouTube video"
+        allowfullscreen>
+    </iframe>
+
+</section>
+
+<section>
+
+<h2>Why choose us?</h2>
+
+<p>
+We help businesses improve their online presence through marketing automation,
+email campaigns, CRM implementation and web analytics.
 </p>
 
-<p><a href="https://www.google.com" target="_blank">Visit Google</a></p>
+<p>
+Our team has years of experience helping companies grow through digital channels.
+Every project is measured using Google Analytics and Google Tag Manager.
+</p>
+
+<p>
+This section is intentionally long so that you can practice Scroll Depth triggers
+inside Google Tag Manager.
+</p>
+
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra,
+erat vitae tincidunt cursus, massa neque volutpat ipsum, vel feugiat ligula
+erat non odio. Donec luctus, lorem eget interdum egestas, nunc lacus
+vestibulum neque, sed cursus justo lorem vel justo.
+</p>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact us</h2>
+
+<form id="contact-form">
+
+<label>Name</label>
+
+<input
+id="name"
+type="text"
+required>
+
+<label>Email</label>
+
+<input
+id="email"
+type="email"
+required>
+
+<label>Company</label>
+
+<input
+id="company"
+type="text">
+
+<label>Message</label>
+
+<textarea
+id="message"
+rows="5"></textarea>
+
+<button
+id="submit-btn"
+type="submit">
+
+Send message
+
+</button>
+
+</form>
+
+<p
+id="success-message"
+style="display:none;color:green;">
+
+Thank you! Your message has been sent.
+
+</p>
+
+</section>
+
+<section>
+
+<h2>Follow us</h2>
+
+<p>
+
+<a
+id="linkedin-link"
+target="_blank"
+href="https://www.linkedin.com">
+
+LinkedIn
+
+</a>
+
+|
+
+<a
+id="google-link"
+target="_blank"
+href="https://www.google.com">
+
+Google
+
+</a>
+
+</p>
+
+</section>
+
+<footer>
+
+Digital Growth Studio © 2026
+
+</footer>
 
 <script>
-document.getElementById("contact-form").addEventListener("submit", function(e){
-    e.preventDefault();
-    document.getElementById("success-message").style.display = "block";
+
+document.getElementById("contact-form").addEventListener("submit",function(e){
+
+e.preventDefault();
+
+document.getElementById("success-message").style.display="block";
+
 });
+
 </script>
 
 </body>
+
 </html>
